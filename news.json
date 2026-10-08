@@ -1,0 +1,41 @@
+{
+  "_come_si_usa": "Il gioco legge questo file all'avvio. latest = ultima versione uscita (se il giocatore ha una versione più vecchia vede 'Aggiornamento disponibile'); min = versione minima (sotto questa l'aggiornamento è obbligatorio); store = dove si aggiorna; messages = notizie (id unico, date AAAA-MM-GG, until = fino a quando mostrarla, testi it/en, url facoltativo).",
+  "latest": {
+    "ios": "1.17",
+    "android": "1.17"
+  },
+  "min": {
+    "ios": "1.0",
+    "android": "1.0"
+  },
+  "store": {
+    "ios": "https://testflight.apple.com/join/x3T7Xnfx",
+    "android": "https://play.google.com/store/apps/details?id=com.zaptopia.game"
+  },
+  "update": {
+    "title": {
+      "it": "Aggiornamento disponibile!",
+      "en": "Update available!"
+    },
+    "text": {
+      "it": "C'è una versione nuova di Zaptopia con novità e correzioni. Aggiorna per non perderti niente!",
+      "en": "A new version of Zaptopia is out with new stuff and fixes. Update so you don't miss anything!"
+    }
+  },
+  "messages": [
+    {
+      "id": "benvenuto-tester-2026-10",
+      "date": "2026-10-08",
+      "until": "2026-12-31",
+      "icon": "🎉",
+      "title": {
+        "it": "Grazie per provare Zaptopia!",
+        "en": "Thanks for testing Zaptopia!"
+      },
+      "text": {
+        "it": "Sei tra i primi a giocare. Arriva fin dove riesci e raccontaci com'è andata con il tasto «Scrivici un parere» nelle Impostazioni. Novità: è arrivato Skambiaz, il pagliaccio della Cripta!",
+        "en": "You're one of the first players! Get as far as you can and tell us how it went with the \"Send us feedback\" button in Settings. New: meet Skambiaz, the Crypt clown!"
+      }
+    }
+  ]
+}
