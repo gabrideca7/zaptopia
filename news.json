@@ -1,5 +1,6 @@
 {
-  "_come_si_usa": "Il gioco legge questo file all'avvio. latest = ultima versione uscita (se il giocatore ha una versione più vecchia vede 'Aggiornamento disponibile'); min = versione minima (sotto questa l'aggiornamento è obbligatorio); store = dove si aggiorna; messages = notizie (id unico, date AAAA-MM-GG, until = fino a quando mostrarla, testi it/en, url facoltativo).",
+  "_come_si_usa": "Il gioco legge questo file all'avvio. latest = ultima versione uscita (se il giocatore ha una versione più vecchia vede 'Aggiornamento disponibile'); min = versione minima (sotto questa l'aggiornamento è obbligatorio); store = dove si aggiorna; messages = notizie (id unico, date AAAA-MM-GG, until = fino a quando mostrarla, testi it/en, url facoltativo). tester = true finché la modalità tester (7 tocchi su IMPOSTAZIONI) deve funzionare: al lancio pubblico mettere false. online = indirizzo (url) e chiave pubblica (key) del server Supabase.",
+  "tester": true,
   "latest": {
     "ios": "1.17",
     "android": "1.17"
@@ -37,5 +38,9 @@
         "en": "You're one of the first players! Get as far as you can and tell us how it went with the \"Send us feedback\" button in Settings. New: meet Skambiaz, the Crypt clown!"
       }
     }
-  ]
+  ],
+  "online": {
+    "url": "",
+    "key": ""
+  }
 }
