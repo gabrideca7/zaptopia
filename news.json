@@ -3,7 +3,7 @@
   "tester": true,
   "latest": {
     "ios": "1.17",
-    "android": "1.17"
+    "android": "1.18"
   },
   "min": {
     "ios": "1.0",
