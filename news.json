@@ -5,8 +5,8 @@
     "android": true
   },
   "latest": {
-    "ios": "1.40",
-    "android": "1.40"
+    "ios": "1.42",
+    "android": "1.42"
   },
   "min": {
     "ios": "1.0",
